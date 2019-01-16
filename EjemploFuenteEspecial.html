@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo fuente especial</title>
+	<style type="text/css">
+		@font-face{
+			font-family: especial;
+			src: url(./Coiny-Regular.ttf);
+		}
+		@font-face{
+			font-family: especial2;
+			src: url(./especial2.ttf);
+		}
+		@font-face{
+			font-family: especial3;
+			src: url(./especial3.ttf);
+		}
+		h1{
+			font-family: especial2;
+		}
+		div{
+			width: 400px;
+			padding: 20px;
+			margin: 10px;
+		}
+		.especial{
+			font-family: especial;
+			color:red;
+			border: 1px solid black;
+		}
+		.especial3{
+			font-family: especial3;
+			font-size: 20px;
+			color: orange;
+			border: 1px solid red;
+		}
+	</style>	
+</head>
+<body>
+	<center>
+		<h1>Aqui  usamos una fuente especial de letra</h1>
+		<div class = "especial">
+			Esto es una fuente especial en .ttf usando la regla @font-face
+		</div>
+		
+		<div class = "especial3">
+			Se pueden usar tantas fuentes como reglas se definan y tipologias de letras se tengan aunque es recomdable no excederse usandolas y no usar muchas.
+		</div>
+
+	<center>
+</body>
+</html>

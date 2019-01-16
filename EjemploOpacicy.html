@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo Opacity</title>
+	<style type="text/css">
+		.transparencia1{
+			filter: alpha(opacity=50);
+			-moz-opacity: 0.5;
+			-khtml-opacity: 0.5;
+			opacity: 0.5;
+		}
+		.transparencia2{
+			filter: alpha(opacity=20);
+			-moz-opacity: 0.2;
+			-khtml-opacity: 0.2;
+			opacity: 0.2;/*Este es Común*/
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<img src="./imagenes/agnaktor.png">
+		<img class = "transparencia1" src="./imagenes/agnaktor.png">
+		<img class = "transparencia2" src="./imagenes/agnaktor.png">
+	</center>
+
+</body>
+</html>

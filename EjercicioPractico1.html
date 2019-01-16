@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio Practico 1 Tema 10</title>
+	<style type="text/css">
+		@font-face{
+			font-family: especial;
+			src: url(./especial3.ttf);
+		}
+		@font-face{
+			font-family: especial2;
+			src: url(./especial2.ttf);
+		}
+		h1{
+			font-weight: bold;
+			font-style: italic;
+		}
+		div{
+			margin: 10px;
+			border: 1px solid black;
+			padding: 10px;
+			width: 300px
+		}
+		.helper{
+			cursor: help;
+			background-color: rgb(153, 204, 255);
+		}
+		.wait{
+			cursor: wait;
+			background-color: rgb(255, 153, 153);
+		}
+		.especial{
+			font-family: especial;
+		}
+		.especial2{
+			font-family: especial2;
+			font-size: 20px
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+		<h1>Ejercicio Practico de Cambio de cursor y fuentes especiales</h1>
+		<div class = "helper especial">
+			Este contendor contiene una fuente especial externa y al pasar el cursor por encima del contenedor este cabia al estado helper (interrogacion).
+		</div>
+		<div class = "wait especial2">
+			Este contendor contiene otra fuente especial externa distinta y al pasar el cursor por encima del contenedor este cabia al estado wait (espera).
+		</div>
+	</center>
+</body>
+</html>
