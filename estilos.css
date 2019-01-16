@@ -1,0 +1,20 @@
+/*Hoja de estilos externa de la Practica 3*/
+h1{
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+	color: red;
+}
+.caja1{
+	border: 1px solid black;
+	width: 600px;
+	height: 300px;
+	background-color: #8EB3CC;
+	margin-left: 30px;
+	overflow: auto;
+}
+p{
+	font-family: Arial, sans-serif;
+	margin: 30px;
+	text-align: justify;
+	margin-left: 30px;
+}
