@@ -1,3 +1,3 @@
 # MasterD
-Ejemplos, ejercicios y pruebas del Tema 11: Acentos y simbolos especiales
+Ejemplos, ejercicios y pruebas del Tema 13: Dinamismo en la web
 
